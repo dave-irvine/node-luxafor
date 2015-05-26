@@ -1,5 +1,5 @@
 {
-  "name": "node-luxafor",
+  "name": "luxafor",
   "version": "0.0.1",
   "description": "Control Luxafor Notification Light With Node.js",
   "main": "index.js",
