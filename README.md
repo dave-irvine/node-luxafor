@@ -18,10 +18,20 @@ Usage
 ----
 
 ```
-var Luxafor = require("./index.js")();
+var Luxafor = require("luxafor")();
 
 Luxafor.init(function () {
-	Luxafor.setColor(Luxafor.colors.blue, function () {
+        Luxafor.setColor(Luxafor.colors.blue, function () {
 	});
 });
 ```
+
+You will probably need to sudo execute your test script else you will get
+`LIBUSB_ERROR_ACCESS`.
+
+
+Troubleshooting
+----
+
+Help, I get `LIBUSB_ERROR_ACCESS`.
+Sudo run your script.
