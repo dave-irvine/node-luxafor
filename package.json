@@ -1,6 +1,6 @@
 {
   "name": "luxafor",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Control Luxafor Notification Light With Node.js",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,10 @@
     "luxafor",
     "usb"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dave-irvine/node-luxafor.git"
+  },
   "author": "Dave Irvine <dave@daveirvine.me>",
   "license": "MIT",
   "dependencies": {
