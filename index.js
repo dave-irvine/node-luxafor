@@ -10,7 +10,11 @@ Luxafor = function () {
 		"red": 82,
 		"green": 71,
 		"blue": 66,
-		"yellow": 89
+		"cyan": 67,
+		"magenta": 77,
+		"yellow": 89,
+		"white": 87,
+		"off": 79
 	};
 }
 
