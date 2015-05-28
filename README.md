@@ -21,13 +21,25 @@ Usage
 var Luxafor = require("luxafor")();
 
 Luxafor.init(function () {
-        Luxafor.setColor(Luxafor.colors.blue, function () {
+        Luxafor.setLuxaforColor(Luxafor.colors.blue, function () {
 	});
 });
 ```
 
 You will probably need to sudo execute your test script else you will get
 `LIBUSB_ERROR_ACCESS`.
+
+API
+----
+
+###setColor(r, g, b, callback)
+Set Luxafor to provided r, g, b values (0-255).
+
+###setLuxaforColor(luxaforColor, callback)
+Set Luxafor to a preset Luxafor color (see Luxafor.colors).
+
+###flashColor(r, g, b, callback)
+Flash the Luxafor to provided r, g, b values (0-255).
 
 
 Troubleshooting
