@@ -44,10 +44,14 @@ Luxafor.prototype.init = function (cb) {
 	});
 };
 
-Luxafor.prototype.setColor = function (color, cb) {
+Luxafor.prototype.setLuxaforColor = function (color, cb) {
 	var buff =  new Buffer(2);
+
+	//Padding
 	buff.writeUInt8(0, 0);
+
 	buff.writeUInt8(color, 1);
+
 	this.endpoint.transfer(buff, function () {
 		if (cb) {
 			cb();
