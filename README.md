@@ -3,6 +3,7 @@ node-luxafor
 
 Control your Luxafor notification light via node.js!
 
+[![NPM](https://nodei.co/npm/luxafor.png?downloads=true&stars=true)](https://nodei.co/npm/luxafor/)
 Installation
 ----
 
