@@ -48,3 +48,6 @@ Troubleshooting
 
 Help, I get `LIBUSB_ERROR_ACCESS`.
 Sudo run your script.
+
+Help, I get `LIBUSB_ERROR_ACCESS` even with sudo and I'm on a Mac.
+See https://github.com/nonolith/node-usb/issues/30 :(
